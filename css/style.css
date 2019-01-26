@@ -12,6 +12,10 @@ a{
   color: #448afc;
 }
 
+h2{
+  font-size: 24px;
+}
+
 .top-nav{
   margin-top: 30px;
   background-color: #fff;
@@ -98,11 +102,47 @@ a{
   margin-top: 25px;
 }
 
-.object-description{
-  padding: 20px;
+.directions{
+  padding: 10px;
 }
 
-.object-description h3{
+.directions_block h3{
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.content{
+  margin-top: 30px;
+}
+
+.content h2{
+  font-size: 16px;
+}
+
+.content .btn{
+  padding: 15px 20px;
+  color #fff;
+  font-size: 13px;
+  font-weight: 700;
+  border-bottom: 4px solid darken(#448afc, 30%);
+}
+
+.directions{
+  margin-top: 50px;
+}
+
+.directions_block{
+  background-color: #fff;
+  height: 250px;
+  text-align: center;
+  margin-left: 0 15px;
+  padding: 10px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+}
+
+.directions_block h3{
+  color: #443afc;
 }
