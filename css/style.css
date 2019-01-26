@@ -9,9 +9,10 @@ body{
 }
 
 .top-nav{
-  margin-top: 40px;
+  margin-top: 30px;
   background-color: #fff;
-  padding: 15px;
+  padding: 7px;
+  margin-bottom: 15px;
 }
 
 .top-nav_menu{
@@ -28,7 +29,7 @@ body{
   text-transform: uppercase;
   text-decoration: none;
   color: #131313;
-  font-weight: 700;
+  font-weight: 650;
 }
 
 .top-nav_menu a::after{
@@ -47,4 +48,42 @@ body{
 
 .top-nav_menu a:hover::after{
   transform: translateY(38px) scale(1);
+}
+
+.left-sidebar{
+  background-color: #fff;
+}
+
+.left-sidebar_menu{
+  list-style: none;
+  padding: 0;
+}
+
+.left-sidebar_menu li{
+  padding: 15px;
+}
+
+.left-sidebar_menu:first-child{
+  padding-top: 25px;
+}
+
+.left-sidebar_menu:last-child{
+  padding-bottom: 25px;
+}
+
+.left-sidebar_menu a{
+  text-decoration: none;
+  color: #131313;
+  font-weight: 500;
+  display: block;
+}
+
+.left-sidebar_menu a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.left-sidebar_menu li:hover{
+  background-color:  #448afc;
+  transition: all 0.2s;
 }
