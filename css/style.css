@@ -8,6 +8,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+a{
+  color: #448afc;
+}
+
 .top-nav{
   margin-top: 30px;
   background-color: #fff;
@@ -51,10 +55,11 @@ body{
 }
 
 .left-sidebar{
-  background-color: #fff;
+
 }
 
 .left-sidebar_menu{
+  background-color: #fff;
   list-style: none;
   padding: 0;
 }
@@ -86,4 +91,18 @@ body{
 .left-sidebar_menu li:hover{
   background-color:  #448afc;
   transition: all 0.2s;
+}
+
+.left-sidebar_object{
+  background-color: #fff;
+  margin-top: 25px;
+}
+
+.object-description{
+  padding: 20px;
+}
+
+.object-description h3{
+  text-transform: uppercase;
+  font-weight: 400;
 }
