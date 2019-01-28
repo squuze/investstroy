@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background-color: #d4d7db;
+  background-image: url(img/bg.jpg);
   color: #131313;
   font-family: 'Roboto', sans-serif;
 }
@@ -145,4 +145,42 @@ h2{
 
 .directions_block h3{
   color: #443afc;
+}
+
+.footer{
+  margin-top: 50px;
+  color #666666;
+  padding: 50px 0;
+}
+
+.footer a{
+  color: #666666;
+  text-decoration: none;
+}
+
+.footer li{
+  list-style: none;
+  padding: 3px 0;;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+}
+
+small {
+  display: block;
+  line-height: 16px;
+  font-size: 10px;
+}
+
+.policy a {
+  color : #666666;
+  text-decoration: none;
+}
+
+.policy a:hover{
+  color #fff;
+  text-decoration: none;
 }
